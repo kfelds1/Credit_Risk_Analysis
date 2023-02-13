@@ -32,7 +32,7 @@ We used six machine learning algorithms, all easily available to us in Python wi
 
 ![Screen Shot 2023-02-13 at 7 49 36 AM](https://user-images.githubusercontent.com/112633146/218461950-afdde7ae-0a62-42eb-b716-ef4bd81ebe30.png)
 
-- Balance accuracy: 
+- Balance accuracy: 0.6443721269403855
 - Precision: The precision rate for high-risk loans is 1%, and for low-risk loans, it is 100%.
 - Recall score: high/low: .61/.45
 
@@ -63,5 +63,6 @@ We used six machine learning algorithms, all easily available to us in Python wi
 
 ## Summary
 
+When observing balanced accuracy and evaluating the strength of each model, we want the balance accuracy score which is closest to 1. With this rule, the EasyEnsembleClassifer Model is the best machine learning model with .925 as the balanced accuracy. Across all of the models, there is not a significant difference in precision, as the precision for all low-risk loans is 100% and between 1% and 7% for high-risk loans. When observing the recall score, the closer the number is to 1, the better fit the machine learning model is. Once again, the EasyEnsembleClassifier Model has the highest recall score at .94. This model is the best all-around machine learning model for this data.
 
 
